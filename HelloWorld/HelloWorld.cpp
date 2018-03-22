@@ -6,11 +6,10 @@
 
 int main()
 {
-	auto hello = HelloWorldClass();
+	HelloWorldClass hello;
 	hello.writeHello();
-	auto x = hello.calculate(4, 5);
+	int x = hello.calculate(4, 5);
 	hello.showResult(x);
 	hello.waitForAnyKey();
     return 0;
 }
-
